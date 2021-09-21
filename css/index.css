@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    transition:all .2s linear;
+    font-size: 15px;
+    text-transform:capitalize;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    min-width:1050px;
+  }
+header{
+    position: sticky;
+    top: 0;
+    z-index:1;
+    background-color: whitesmoke;
+   
+}
+header .navbar{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 14vh;
+    max-width:100%;
+}
+div .pics ul{
+    display:flex;
+    justify-content:space-between;
+}
+div .pics ul li{
+    margin:0.5rem;
+
+}
+div .pics ul li a{
+    font-size: 1.5rem;
+    color: #2a9d8f;
+} 
+i:hover{
+    color:#495057;
+}
+.navs ul{
+    display:flex;
+    justify-content:space-evenly;
+    padding:1rem;
+    margin:0.5rem;
+
+}
+div .navs{
+    display:block;
+}
+.navs ul li{
+    margin:0 2rem;
+    
+}
+.navs ul li a{
+    font-weight: bold;
+}
+header .heading h1 span{
+    color:#2a9d8f;
+    font-size: 3rem;
+}
+header .heading h1{
+    color:#495057;
+    margin: 0 -10rem;
+   
+}
+
+.link:hover{
+    background-color:#2a9d8f;
+}
+div .background{
+    background-image:linear-gradient(to bottom, rgba(58, 58, 58, 0.52), rgba(46, 46, 46, 0.73)),
+    url('image4.png');
+    height:35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:100%;
+}
+div .background h1{
+    color:whitesmoke;
+    font-size: 3rem;
+}
+div .background h1 span{
+    color:#2a9d8f;
+    font-size: 2rem;
+}
+div .head2{
+    padding:10rem 13rem;
+}
+div .aboutus h1{
+    color:#2a9d8f;
+    font-size: 2rem;
+
+}
+div .secosec{
+    height: 70vh;
+    display: flex;
+    margin: 4rem 8rem;
+}
+div .aboutus p{
+    height: 5rem;
+    width: 70%;
+    
+}
+
+
+.buttons{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin:-9rem 12rem;
+}
+.explore button{
+    border:3px solid #495057;
+    border-radius: 2rem;
+    height:3rem;
+    width:7rem;
+    margin:0 1rem;
+    color:whitesmoke;
+    background-color: #2a9d8f;
+    cursor: pointer;
+}
+button:hover{
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+div .aboutus p{
+    text-align: left;
+    
+}
+div .pic img{
+    height:20rem;
+    width:30rem;
+    padding-left: 2rem;
+    border-left: 5px solid #2a9d8f;
+   
+    
+}
+div .thrpart{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+/* .thirdsec {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#2a9d8f ;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .thirdsec:hover .overlay {
+    height: 100%;
+    opacity:0.8;
+  }
+  
+  .text {
+    color:#495057 ;
+    opacity:none;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+  /* #frstimg{
+      height:10rem; */
+  
+  div .contact{
+      height:100vh;
+      background-color:#495057 ;
+  }
+  div h3{
+      color:#2a9d8f;
+      font-size:2rem;
+      font-weight:bold;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
+  
+  input[type=submit] {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#495057;
+  }
+  
+  .contain {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin:10% 20%;
+  }
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color:#2a9d8f;
+  }
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#495057;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  footer .foot{
+    height:10vh;
+    width:100%;
+    background-color:#2a9d8f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  footer .foot h3{
+    color:#495057;
+    font-size:20px;
+  }
+  /* div .wall{
+    background-image:linear-gradient(to bottom, rgba(58, 58, 58, 0.52), rgba(46, 46, 46, 0.73)),
+    url('image9.png');
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    max-width:100%;
+  }
+  .center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(232, 232, 232, 0.2);
+    border: 5px solid #2a9d8f;
+    height: 70vh;
+    width:60vw;
+    padding: 10px;
+    }
+    div .center h1{
+    color:whitesmoke;
+    font-size:2rem;
+    text-align: center;
+    margin:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    div .razorpay-embed-btn{
+        text-align: center;
+    } */
+    /* div .head{
+        background-image:linear-gradient(to bottom, rgba(58, 58, 58, 0.52), rgba(46, 46, 46, 0.73)),
+    url('image8.jpg');
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .head img{
+       position: relative;
+       top:10rem ;
+       left: 30rem;
+       max-width:100%;
+    }
+    .head h1{
+        text-align: center;
+        margin:8rem;
+        color:whitesmoke;
+    font-size:5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } */
+    .overlay-slide {
+        position: relative;
+        box-sizing: border-box;
+        height:280px;
+        width: 220px;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .overlay-slide img{
+        width:100%;
+        height:20rem;
+        
+    }
+    .overlay-slide:hover div {
+        transform: translate(0, 0);
+        transition: all 0.4s ease-in;
+    }
+    .overlay-slide div {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(100%, 100%);
+        padding: 15px;
+        background-color: rgba(0,0,0,0.5);
+        text-align:center;
+        transition: all 0.3s ease-in;
+    }
+    .overlay-slide h2 {
+        margin: 0;
+        font-size: 18px;
+        color:#2a9d8f ;
+    }
+    /* div .h1 h1
+    {
+        text-align: center;
+        color:#2a9d8f ;
+        position: relative;
+        bottom: 50px;
+        font-size: 5rem;
+        margin-top: -5rem;
+    } */
+    @media only screen and (max-width: 700px){
+        div .container{
+            min-width:1050px;
+            
+        }
+        div.navbar
+        {
+            height:20vh;
+        }
+        header .heading h1{
+           font-size: 5rem;
+          margin:0 1rem;
+        }
+        header .heading h1 span{
+            font-size: 6rem;
+        }
+        div .secosec{
+           flex-direction: column-reverse;
+           align-items: center; 
+        }
+        div .pic img{
+            min-width: 35rem;
+            height:25rem;
+            margin:0 20px;
+        }
+        div .aboutus p{
+            font-weight: 5rem;
+        }
+        div .h1 h1{
+            margin-top:10rem;
+            font-size: 4rem;
+        }
+        div .thrpart{
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        div .overlay-slide{
+            width:30rem;
+            height:30rem;
+            margin:0 2rem ;
+        }
+        
+
+    }
