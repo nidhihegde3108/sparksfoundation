@@ -352,6 +352,9 @@ div .thrpart{
        div .background{
            min-height: 70vh;
        }
+       div .background h1{
+           padding-top: 13rem;
+       }
       
         div .secosec{
            flex-direction: column-reverse;
