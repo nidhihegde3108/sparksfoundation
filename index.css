@@ -9,6 +9,9 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+#click{
+    display:none ;
+}
 body {
     min-width:100%;
   }
