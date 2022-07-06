@@ -286,7 +286,7 @@ div .thrpart{
         div .menu-btn i{
             display: block;
         }
-        div .navbar ul 
+        /* div .navbar ul 
         {   
            position: fixed;
            top: 6rem;
@@ -300,26 +300,48 @@ div .thrpart{
            text-align: center;
 
 
+        } */
+   
+        div .pics ul {
+            position: relative;
+            right: 86vw;
+            top: 3vw;
+
         }
+       header .navbar .heading h1{
+        position: relative;
+        left: 13vw;
+        bottom: 7vw;
+        font-size: 6vw;
+       }
+       header .navbar .heading span
+       {
+        font-size: 10vw;
+       }
         header{
             position: fixed;
             top: 0;
             height: 15%;
             width: 100%;
         }
-        #click{
+        /* #click{
             display:none ;
         }
         #click:checked ~ ul{
             right: 0%;
+        } */
+        .navs ul {
+            position: relative;
+            right: 14vw;
+            bottom: 3vw;
         }
        div .pics ul li a{
           display: inline;
            
        }
         div .navbar ul li a{
-            font-size: 1.5rem;
-            margin-top: 3rem;
+            font-size: 1.1rem;
+            margin-top: 7rem;
             
         }
         div .navbar ul li a:hover{
@@ -334,7 +356,7 @@ div .thrpart{
         }
         header .heading h1{
            font-size: 2rem;
-           margin-left: -60px;
+           margin-left: 60vw;
         }
         header .heading h1 span{
             font-size: 4rem;
